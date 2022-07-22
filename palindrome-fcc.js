@@ -1,3 +1,5 @@
+// JavaScript Algorithms and Data Structures Projects
+
 function palindrome(str) {
   let regx = /[-|_|\.|\s|,|(|)]/gi;
   let newStr = str.toLowerCase().replace(regx, '');
