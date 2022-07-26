@@ -6,4 +6,4 @@ function booWho(bool) {
   return typeof bool == Boolean || typeof bool == 'boolean' ? true : false;
 }
 
-console.log(booWho(true));
+booWho(true)
